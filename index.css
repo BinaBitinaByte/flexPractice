@@ -1,0 +1,97 @@
+body {
+    background-color: #E8EDFB;
+}
+
+.links
+{
+    display:flex;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    width: 800px;
+    border: 5px ; 
+}
+
+a:hover{
+    color: gray;
+}
+.button2:hover{
+    background-color: white;
+}
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+nav{
+    display:flex; 
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 45px;
+    max-height: 100px;
+    display: flex;
+}
+
+.button1{
+    display: inline-block;
+    width: 100px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    border-radius: 20px;
+    justify-content: flex-end;
+}
+.purple{
+    width:100%;
+    height: 60px;
+    background:#663BC9;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 515px;
+    line-height: 96px;
+    color: black;
+}
+
+.para{
+    margin-left: 720px;
+    margin-top: 100px;
+}
+
+.text{
+
+    text-align: center;
+    margin-left:500px;
+    margin-right:500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button2{
+    display:flex;
+    text-align: center;
+    border-radius: 20px;
+    width: 150px;
+    height:30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F80051;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
